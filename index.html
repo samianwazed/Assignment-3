@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,72 +17,92 @@
       rel="stylesheet"
     />
     <style>
-        .adlam-display-font {
-            font-family: "ADLaM Display", serif;
-        }
-        .sora-font {
-            font-family: "Sora", serif;
-        }
-        .accent{
-            color: #FFDC26;
-        }
-        .common-btn{
-            background-color: #FFDC26;
-            padding: 10px 30px;
-            font-size: 1.25rem;
-        }
+      .adlam-display-font {
+        font-family: "ADLaM Display", serif;
+      }
+      .sora-font {
+        font-family: "Sora", serif;
+      }
+      .accent {
+        color: #ffdc26;
+      }
+      .common-btn {
+        background-color: #ffdc26;
+        padding: 10px 30px;
+        font-size: 1.25rem;
+      }
     </style>
-      </script>
   </head>
   <body>
-    <main class=" mx-auto">
-        <header class="">
+    <main class="mx-auto">
+      <header class="">
         <!-- Navbar Section -->
-        <nav class="bg-[#FFF9F4] mx-auto h-[70px] md:h-[100px] border border-b-2 md:border-none mb-8 md:mb-[72px] ">
-            <!-- Container -->
-            <div class="flex w-[85%] mx-auto text-sora-font justify-between py-3 md:py-7">
-                <!-- Start  -->
-                <div class="hidden md:flex  gap-4 justify-start justify-items-center items-center ">
-                  <img src="images/logo-header.png" alt="" class="w-12">
-                  <p class="hidden md:flex text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
-                </div>
-                <!-- Center -->
-                <div class=" hidden lg:flex gap-8 justify-center justify-items-center items-center ">
-                    <p class="text-[20px]"><a href="">Find a Pet</a></p>
-                    <p class="text-[20px]"><a href="">Breeds</a></p>
-                    <p class="text-[20px]"><a href="">Contact Us</a></p>
-                </div>
-                <!-- End -->
-                <div class="hidden md:flex justify-end justify-items-center items-center">
-                    <img src="images/bell.png" alt="" class=" mr-4">
-                    <img src="images/search.png" alt="" class=" mr-4">
-                  <a class="btn  mr-3 border border-[#FFDC26] px-7 py-4">Login </a>
-                  <a class="btn btn-warning common-btn">Register</a>
-                </div>
-                <!-- Mobile Visible part -->
-                <div class="flex md:hidden justify-between w-full">
-                    <img src="images/logo-header.png" alt="" class="w-12">
-                    <img src="images/bars-3.png" alt="" class="">
-                </div>
-              </div>
+        <nav
+          class="bg-[#FFF9F4] mx-auto h-[70px] md:h-[100px] border border-b-2 md:border-none mb-8 md:mb-[72px]"
+        >
+          <!-- Container -->
+          <div
+            class="flex w-[85%] mx-auto text-sora-font justify-between py-3 md:py-7"
+          >
+            <!-- Start  -->
+            <div
+              class="hidden md:flex gap-4 justify-start justify-items-center items-center"
+            >
+              <img src="images/logo-header.png" alt="" class="w-12" />
+              <p class="hidden md:flex text-2xl">
+                Browse<span class="text-[#FFDC26]">4</span>Pets
+              </p>
+            </div>
+            <!-- Center -->
+            <div
+              class="hidden lg:flex gap-8 justify-center justify-items-center items-center"
+            >
+              <p class="text-[20px]"><a href="">Find a Pet</a></p>
+              <p class="text-[20px]"><a href="">Breeds</a></p>
+              <p class="text-[20px]"><a href="">Contact Us</a></p>
+            </div>
+            <!-- End -->
+            <div
+              class="hidden md:flex justify-end justify-items-center items-center"
+            >
+              <img src="images/bell.png" alt="" class="mr-4" />
+              <img src="images/search.png" alt="" class="mr-4" />
+              <a class="btn mr-3 border border-[#FFDC26] px-7 py-4">Login </a>
+              <a class="btn btn-warning common-btn">Register</a>
+            </div>
+            <!-- Mobile Visible part -->
+            <div class="flex md:hidden justify-between w-full">
+              <img src="images/logo-header.png" alt="" class="w-12" />
+              <img src="images/bars-3.png" alt="" class="" />
+            </div>
+          </div>
         </nav>
         <!-- Banner Part -->
-         <section class="relative w-[85%] mx-auto mb-[140px]">
-            <!-- Text -->
-            <div class="absolute z-10">
-                <h1 class="mb-4 adlam-display-font text-3xl md:text-[56px] leading-snug w-full">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-                <p class="mb-6 text-xl">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="btn common-btn">Find a pet</button>
-            </div>
-            <!-- Image -->
-             <div class="absolute top-44 md:static md:top-0">
-                <img src="images/cat-big.png" alt="" class="bg-transparent">
-             </div>
-             
-         </section>
-    </header>
+        <section class="relative w-[85%] mx-auto mb-[140px]">
+          <!-- Text -->
+          <div class="absolute z-10">
+            <h1
+              class="mb-4 adlam-display-font text-3xl md:text-[56px] leading-snug w-full"
+            >
+              Pamper Your Pet, <br />
+              Because They Deserve <br />
+              the Bes
+            </h1>
+            <p class="mb-6 text-xl">
+              Discover a world of treats, toys, and essentials handpicked for
+              <br />
+              your furry friends. Shop now and make tails wag with joy!
+            </p>
+            <button class="btn common-btn">Find a pet</button>
+          </div>
+          <!-- Image -->
+          <div class="absolute top-[280px] md:static md:top-0">
+            <img src="images/cat-big.png" alt="" class="bg-transparent" />
+          </div>
+        </section>
+      </header>
     </main>
-    
+
     <footer></footer>
   </body>
 </html>
