@@ -35,6 +35,11 @@
         padding: 10px 30px;
         font-size: 1.25rem;
       }
+      .common-btn:hover{
+        background-color: rgb(255, 243, 79);
+        scale: 1.1;
+        transition: 1s ease-in-out;
+      }
 
       @tailwind base;
       @tailwind components;
@@ -216,8 +221,8 @@
       </section>
 
       <!-- Trending Pet Products Section -->
-      <section class="md:bg-[#FFF9F4] mb-[50px] md:mb-[135px]">
-        <div class="md:w-[85%] mx-auto md:py-24">
+      <section class="md:bg-[#FFF9F4] mb-[50px] md:mb-[100px]">
+        <div class="md:w-[85%] mx-auto md:py-20">
           <h2 class="text-2xl md:text-4xl adlam-display-font mb-8 md:mb-12">
             Trending Pet Products
           </h2>
@@ -233,7 +238,7 @@
                   Discover a world of treats, toys, and <br />
                   essentials handpicked for
                 </p>
-                <button class="btn px-[30px] py-3">Get Started</button>
+                <button class="btn px-[30px] py-3">Shop Now</button>
               </div>
               <!-- Image of Single card -->
               <div class="">
@@ -245,7 +250,7 @@
             </div>
             <!-- Grid Cards -->
             <div
-              class="grid grid-cols-2 lg:grid-cols-3 md:space-x-3 md:space-y-3"
+              class="grid grid-cols-2 lg:grid-cols-3 md:space-x-3 md:space-y-3 justify-items-center"
             >
               <!-- Grid Card-1 -->
               <div
@@ -458,7 +463,61 @@
           </div>
         </div>
       </section>
-
+      <!-- Best Deal Today -->
+      <section class="md:w-[85%] mx-auto md:py-24 mb-[60px]">
+        <h2 class="text-2xl md:text-4xl adlam-display-font mb-8 md:mb-12">
+          Best Deals of Today
+        </h2>
+        <!-- container  -->
+         <div class="grid md:grid-cols-3 gap-4 w-full justify-items-center">
+          <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="images/pet-foods.jpg"
+              alt="Shoes"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Pet Foods</h2>
+            <p>If a dog chews foods whose foods does he choose?</p>
+            <div class="card-actions">
+              <button class="btn common-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+          <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="images/cat-foods.jpg"
+              alt="Cat Foods"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Cat Foods</h2>
+            <p>If a cat chews foods whose foods does she choose?</p>
+            <div class="card-actions">
+              <button class="btn common-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+          <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="images/bird-food.jpg"
+              alt="Bird Foods"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Bird Foods!</h2>
+            <p>If a Bird chews foods whose foods does she choose?</p>
+            <div class="card-actions">
+              <button class="btn common-btn mt-[23px]">Buy Now</button>
+            </div>
+          </div>
+        </div>
+         </div>
+        
+      </section>
       <!-- Everyday Low Price Section -->
       <section class="w-[96%] md:w-[85%] mx-auto md:mb-36">
         <h3 class="adlam-display-font text-2xl md:text-4xl mb-[32px] md:mb-12">
