@@ -41,10 +41,6 @@
         transition: 1s ease-in-out;
       }
 
-      @tailwind base;
-      @tailwind components;
-      @tailwind utilities;
-
       @keyframes wiggle {
         0% {
           transform: scale(1);
@@ -53,12 +49,9 @@
           transform: scale(1.1);
         }
       }
-
-      @layer utilities {
         .animate-wiggle {
           animation: wiggle 2s infinite alternate;
-        }
-      }
+       }
     </style>
   </head>
   <body class="bg-[#FFFFFF]">
@@ -128,7 +121,7 @@
           <img
             src="images/cat-big.png"
             alt=""
-            class="bg-transparent transition-transform duration-1000 ease-in-out animate-[wiggle_2s_infinite_alternate]"
+            class="bg-transparent transition-transform duration-1000 ease-in-out hover:animate-[wiggle_2s_infinite_alternate]"
           />
         </div>
       </section>
@@ -254,7 +247,7 @@
             >
               <!-- Grid Card-1 -->
               <div
-                class="flex items-center bg-[#F4F4F4] md:bg-white rounded-2xl mb-2 ml-2 p-2 md:p-4 w-48 md:w-64 gap-2 md:gap-6"
+                class="flex items-center bg-[#F4F4F4] md:bg-white rounded-2xl mb-2 ml-2 p-2 md:p-4 max-w-48 md:max-w-64 md:w-64 gap-2 md:gap-6"
               >
                 <!-- Image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
@@ -277,7 +270,7 @@
               </div>
               <!-- Grid Card-2 -->
               <div
-                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 rounded-2xl w-48 md:w-64 flex items-center gap-2 md:gap-4"
+                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 rounded-2xl max-w-48 md:max-w-64 md:w-64 flex items-center gap-2 md:gap-4"
               >
                 <!-- Image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
@@ -300,7 +293,7 @@
               </div>
               <!-- Grid Card-3 -->
               <div
-                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 w-48 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
+                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 max-w-48 md:max-w-64 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
               >
                 <!-- Image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
@@ -323,7 +316,7 @@
               </div>
               <!-- Grid Card-4 -->
               <div
-                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 w-48 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
+                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 max-w-48 md:max-w-64 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
               >
                 <!-- Image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
@@ -346,7 +339,7 @@
               </div>
               <!-- Grid Card-5 -->
               <div
-                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 w-48 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
+                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 max-w-48 md:max-w-64 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
               >
                 <!-- Image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
@@ -369,7 +362,7 @@
               </div>
               <!-- Grid Card-6 -->
               <div
-                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 w-48 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
+                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 max-w-48 md:max-w-64 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
               >
                 <!-- Image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
@@ -392,7 +385,7 @@
               </div>
               <!-- Grid Card-7 -->
               <div
-                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 w-48 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
+                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 max-w-48 md:max-w-64 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
               >
                 <!-- Image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
@@ -415,7 +408,7 @@
               </div>
               <!-- Grid Card-8 -->
               <div
-                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 w-48 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
+                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 max-w-48 md:max-w-64 md:w-64 gap-2 md:gap-6 rounded-2xl flex items-center"
               >
                 <!-- Image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
@@ -438,7 +431,7 @@
               </div>
               <!-- Grid Card-9 -->
               <div
-                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 w-48 md:w-64 gap-2 md:gap-6 rounded-2xl items-center hidden md:flex"
+                class="bg-[#F4F4F4] md:bg-white mb-2 ml-2 p-2 md:p-4 max-w-48 md:max-w-64 md:w-64 gap-2 md:gap-6 rounded-2xl items-center hidden md:flex"
               >
                 <!-- image -->
                 <div class="bg-[#FFF9F4] rounded-lg p-3">
